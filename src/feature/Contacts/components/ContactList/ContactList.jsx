@@ -15,16 +15,8 @@ import {
   stylingDivider,
 } from "./ContactList.styled";
 import IconBtn from "components/IconBtn";
-// import { useEffect } from "react";
-
 export default function ContactList({ contacts, onChoose }) {
   const [deleteContact] = useDeleteContactMutation();
-
-  // useEffect(() => {
-  //   return () => {
-  //     deleteContact.abort();
-  //   };
-  // }, [deleteContact]);
 
   return (
     <List sx={stylingList}>

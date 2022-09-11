@@ -1,12 +1,15 @@
 /** @format */
 
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
 
 export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   min-width: 250px;
   margin-right: 50px;
+  & p {
+    margin: 0;
+  }
 `;
 
 export const NameContainer = styled.div`

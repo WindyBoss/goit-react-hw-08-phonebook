@@ -19,7 +19,7 @@ export const stylingList = {
   border: '1px solid black',
   margin: '30px',
   padding: '10px 30px 30px 30px',
-  minWidth: '400px',
+  minWidth: '500px',
 };
 
 export const InfoContainer = styled.div`
