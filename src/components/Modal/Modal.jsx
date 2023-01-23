@@ -4,9 +4,6 @@ import PropTypes from 'prop-types';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 
-import Button from 'react-bootstrap/Button';
-import { Modal as ModalBootStrap } from 'react-bootstrap/Modal';
-
 import { ModalContent, Backdrop, stylingModalIconBtn } from './Modal.styled';
 
 const modalRoot = document.querySelector('#modal-root');
@@ -44,8 +41,7 @@ function Modal({ children, onClose }) {
         </IconButton>
         {children}
       </ModalContent>
-    </Backdrop>
-    ,
+    </Backdrop>,
     modalRoot
   );
 }
