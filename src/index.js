@@ -19,7 +19,8 @@ ReactDOM.render(
     <ApiProvider api={contactApi}>
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
-          <BrowserRouter basename="/goit-react-hw-08-phonebook/">
+          {/* <BrowserRouter basename="/goit-react-hw-08-phonebook/"> */}
+          <BrowserRouter basename="/">
             <App />
             <Toaster />
           </BrowserRouter>
